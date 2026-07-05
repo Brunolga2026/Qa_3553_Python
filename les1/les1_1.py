@@ -71,6 +71,18 @@ print(len(s1))
 #P Y T H O N
 #0 1 2 3 4 5
 
+st = 'Python'
+print(st[0])
+print(st[1])
+print(st[2])
+print(st[3])
+print(st[4])
+print(st[5])
+#print(st[6])
+
+# P  Y  T  H  O  N
+#-6 -5 -4 -3 -2 -1
+
 #*********************************
 #my_string[start:end]
 #P Y T H O N
@@ -84,6 +96,10 @@ print("*****")
 my_string = "Hello World!"
 every_second_char = my_string[::2]
 print(every_second_char)
+from_second = my_string[1::2]
+print(from_second)
+my_substring = my_string[1:10:3]
+print(my_substring)
 
 reversed_string = my_string[::-1]
 print(reversed_string)

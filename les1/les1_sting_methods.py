@@ -11,9 +11,10 @@ print(s.find(str)) #если находит показывает первый в
 print(s.rfind(str)) # показывает все что совпало
 print(s.find('add'))
 #*************************
-#count(sub[start,end])
+#count(sub,start,end)
 print(s.count(str))
 print(s.count(str,4))
+print(s.count(str,4,16))
 
 #str.upper()
 #str.lower()
